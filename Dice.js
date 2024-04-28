@@ -1,9 +1,9 @@
 
 
 
-let result1 = document.getElementById("numberDisplay1");
-let result2 = document.getElementById("numberDisplay2");
-let generateButton = document.getElementById("numberGenerator");
+const result1 = document.getElementById("numberDisplay1");
+const result2 = document.getElementById("numberDisplay2");
+const generateButton = document.getElementById("numberGenerator");
 
 function generateRandomNumber(min, max) {
     return Math.floor(Math.random() * max) + min;
